@@ -5,6 +5,7 @@ import ShowChartIcon from "@mui/icons-material/ShowChart";
 import TuneIcon from "@mui/icons-material/Tune";
 import { Drawer } from "@mui/material";
 import { useSidebar } from "../../../context/SidebarProvider";
+import { Link } from "react-router-dom";
 
 const Sidebar: React.FC = () => {
 	const { isDrawerOpen, handleCloseDrawer } = useSidebar();
@@ -28,7 +29,9 @@ export const SidebarContent = ({ onClose }: { onClose?: () => void }) => {
 	return (
 		<>
 			<header className="h-[60px] flex items-center px-5">
-				<h1 className="font-normal italic text-3xl">Stash</h1>
+				<Link to="/">
+					<h1 className="font-normal italic text-3xl">Stash</h1>
+				</Link>
 			</header>
 			<ul className="flex flex-col gap-2 mt-14">
 				<li>

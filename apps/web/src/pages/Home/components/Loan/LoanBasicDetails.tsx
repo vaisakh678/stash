@@ -3,7 +3,7 @@ import React from "react";
 
 const LoanBasicDetails: React.FC = () => {
 	return (
-		<Stack className="w-full h-[800px]">
+		<Stack className="w-full min-h-[400px]">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sunt incidunt illo vitae maiores dolorum ipsam deserunt, quo quibusdam
 			consequuntur alias dolore magni aperiam nihil distinctio odio quidem porro tempore. Alias, rerum voluptas. Qui accusamus necessitatibus
 			dolores voluptatibus quibusdam eius sit praesentium harum esse. Consectetur iusto, porro pariatur tenetur ipsa consequuntur quibusdam
